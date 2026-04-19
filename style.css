@@ -83,6 +83,20 @@ main {
     max-width: 720px;
 }
 
+/* Divisor artístico */
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 30px;
+}
+
+.divider-image {
+    width: 120px; /* ajusta conforme o equilíbrio visual */
+    height: auto;
+    opacity: 0.85;
+}
+
 /* Secções */
 .section {
     margin: 40px 0;
