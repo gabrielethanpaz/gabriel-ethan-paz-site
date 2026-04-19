@@ -18,12 +18,12 @@ main {
 /* Cabeçalho */
 .site-header {
     max-width: 960px;
-    margin: 60px auto 40px;
+    margin: 70px auto 50px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 60px;
+    gap: 80px;
 }
 
 .header-left {
@@ -32,12 +32,11 @@ main {
 
 .author-name {
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 2rem;
-    letter-spacing: 0.06em;
+    font-size: 1.9rem;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    margin: 0 0 22px;
+    margin: 0 0 26px;
 }
-
 
 .main-nav {
     display: flex;
@@ -46,7 +45,7 @@ main {
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .main-nav a {
@@ -65,16 +64,15 @@ main {
 }
 
 .author-photo {
-    width: 160px;
+    width: 150px;
     height: auto;
     object-fit: cover;
-    margin-top: 6px;
+    margin-top: 8px;
 }
-
 
 /* Hero */
 .hero {
-    margin: 50
+    margin: 40px 0 60px;
 }
 
 .hero-quote {
