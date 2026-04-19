@@ -63,11 +63,12 @@ main {
 }
 
 .author-photo {
-    display: block;
-    width: 190px;
+    width: 180px;
     height: auto;
     object-fit: cover;
+    border-radius: 2px;
 }
+
 
 /* Hero */
 .hero {
