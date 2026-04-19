@@ -1,0 +1,89 @@
+/* ------------------------------
+   TIPOGRAFIA E BASE EDITORIAL
+--------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times New Roman", serif;
+    background-color: #f7f7f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* NOVO LAYOUT DO HERO */
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-photo img {
+    width: 260px;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-left: 40px;
+}
+
+
+/* ------------------------------
+   MENU PRINCIPAL
+--------------------------------*/
+.main-menu {
+    background-color: #000;
+    padding: 15px 0;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------
+   INTRO / TEXTO DE APRESENTAÇÃO
+--------------------------------*/
+.intro {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* ------------------------------
+   PÁGINAS INTERNAS
+--------------------------------*/
+.page-header {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.page-header h1 {
+    font-size
