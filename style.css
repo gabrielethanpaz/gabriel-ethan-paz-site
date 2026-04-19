@@ -127,7 +127,7 @@ main {
 }
 
 .book-item img {
-    width: 100%;
+    width: 40%;
     height: auto;
     display: block;
     background-color: #e0ded9;
