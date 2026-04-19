@@ -17,13 +17,13 @@ main {
 
 /* Cabeçalho */
 .site-header {
-    max-width: 950px;
+    max-width: 750px;
     margin: 40px auto 20px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 60px;
+    gap: 50px;
 }
 
 .header-left {
