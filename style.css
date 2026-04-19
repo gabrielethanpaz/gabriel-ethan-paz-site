@@ -23,7 +23,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;
+    gap: 20px;
 }
 
 .header-left {
@@ -32,10 +32,11 @@ main {
 
 .author-name {
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    margin: 0 0 20px;
+    margin: 0 0 12px;
+    line-height: 1.1;
 }
 
 .main-nav {
@@ -64,7 +65,7 @@ main {
 }
 
 .author-photo {
-    width: 130px;
+    width: 120px;
     height: auto;
     object-fit: cover;
     display: block;
