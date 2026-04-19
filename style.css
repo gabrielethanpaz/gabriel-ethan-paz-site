@@ -63,7 +63,7 @@ main {
 }
 
 .author-photo {
-    width: 180px;
+    width: 150px;
     height: auto;
     object-fit: cover;
     border-radius: 2px;
