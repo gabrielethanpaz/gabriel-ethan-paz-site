@@ -17,13 +17,13 @@ main {
 
 /* Cabeçalho */
 .site-header {
-    max-width: 750px;
+    max-width: 960px;
     margin: 40px auto 20px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 50px;
+    gap: 60px;
 }
 
 .header-left {
@@ -35,13 +35,13 @@ main {
     font-size: 1.9rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    margin: 0 0 26px;
+    margin: 0 0 22px;
 }
 
 .main-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 22px;
+    gap: 20px;
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
@@ -67,7 +67,7 @@ main {
     width: 150px;
     height: auto;
     object-fit: cover;
-    margin-top: 0;
+    margin: 0;
 }
 
 
