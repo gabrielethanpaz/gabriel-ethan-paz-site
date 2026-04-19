@@ -19,11 +19,11 @@ main {
 .site-header {
     max-width: 960px;
     margin: 10px auto 0;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
+    gap: 10px;
 }
 
 .header-left {
