@@ -61,7 +61,7 @@ main {
 }
 
 .header-right {
-    margin-right: 90px;
+    margin-right: 100px;
 }
 .author-photo {
     width: 180px;
@@ -80,7 +80,7 @@ main {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.3rem;
     font-style: italic;
-    max-width: 620px;
+    max-width: 720px;
 }
 
 /* Secções */
@@ -160,7 +160,7 @@ main {
 
     .author-photo {
         width: 180px;
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .books-grid {
