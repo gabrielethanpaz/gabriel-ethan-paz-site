@@ -1,89 +1,167 @@
-/* ------------------------------
-   TIPOGRAFIA E BASE EDITORIAL
---------------------------------*/
+/* Tipografia base */
 body {
     margin: 0;
     padding: 0;
-    font-family: "Georgia", "Times New Roman", serif;
-    background-color: #f7f7f7;
-    color: #222;
+    background-color: #f7f5f2;
+    color: #222222;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6;
 }
 
-/* NOVO LAYOUT DO HERO */
-.hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
+/* Estrutura geral */
+main {
+    max-width: 960px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 20px 60px;
 }
 
-.hero-text {
+/* Cabeçalho */
+.site-header {
+    max-width: 960px;
+    margin: 40px auto 20px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.header-left {
     flex: 1;
 }
 
-.hero-photo img {
-    width: 260px;
-    height: auto;
-    border-radius: 4px;
-    object-fit: cover;
-    margin-left: 40px;
+.author-name {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 2.4rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0 0 16px;
 }
 
-
-/* ------------------------------
-   MENU PRINCIPAL
---------------------------------*/
-.main-menu {
-    background-color: #000;
-    padding: 15px 0;
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
 }
 
-.main-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.main-menu li {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-.main-menu a {
-    color: #fff;
+.main-nav a {
     text-decoration: none;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
+    color: #444444;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
 }
 
-.main-menu a:hover {
-    text-decoration: underline;
+.main-nav a:hover {
+    border-color: #444444;
 }
 
-/* ------------------------------
-   INTRO / TEXTO DE APRESENTAÇÃO
---------------------------------*/
-.intro {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-    font-size: 20px;
-    text-align: center;
-    color: #333;
+.header-right {
+    flex: 0 0 auto;
 }
 
-/* ------------------------------
-   PÁGINAS INTERNAS
---------------------------------*/
-.page-header {
-    text-align: center;
-    padding: 40px 20px 20px 20px;
+.author-photo {
+    display: block;
+    width: 190px;
+    height: auto;
+    object-fit: cover;
 }
 
-.page-header h1 {
-    font-size
+/* Hero */
+.hero {
+    margin: 40px 0 50px;
+}
+
+.hero-quote {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    max-width: 620px;
+}
+
+/* Secções */
+.section {
+    margin: 40px 0;
+}
+
+.section h2 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    margin-bottom: 12px;
+}
+
+.section p {
+    max-width: 720px;
+    font-size: 0.98rem;
+}
+
+.section-link {
+    margin-top: 10px;
+}
+
+.section-link a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #444444;
+    border-bottom: 1px solid #444444;
+    padding-bottom: 2px;
+}
+
+.section-link a:hover {
+    color: #000000;
+}
+
+/* Livros */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    margin: 20px 0 10px;
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #e0ded9;
+}
+
+.book-title {
+    font-size: 0.85rem;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+/* Rodapé */
+.site-footer {
+    border-top: 1px solid #d4d0c8;
+    padding: 18px 20px 26px;
+    max-width: 960px;
+    margin: 0 auto 30px;
+    font-size: 0.85rem;
+    color: #666666;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .author-photo {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .books-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
