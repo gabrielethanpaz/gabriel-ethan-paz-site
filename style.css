@@ -61,6 +61,7 @@ main {
 }
 
 .header-right {
+    margin-top: 40px;
     margin-right: 20px;
 }
 .author-photo {
