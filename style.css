@@ -27,7 +27,7 @@ main {
 }
 
 .header-left {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .author-name {
@@ -61,7 +61,7 @@ main {
 }
 
 .header-right {
-    margin-right: 100px;
+    margin-right: 20px;
 }
 .author-photo {
     width: 180px;
