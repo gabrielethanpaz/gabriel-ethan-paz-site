@@ -179,10 +179,12 @@ main {
 }
 
 .contact-photo {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
+    width: 120px;   /* tamanho perfeito e pequeno */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
 }
+
 
 /* CAPA COM O NOME */
 .contact-cover {
@@ -200,7 +202,7 @@ form label {
     margin-bottom: 6px;
 }
 
-form input,
+form input,  
 form textarea {
     display: block;
     width: 100%;
@@ -226,6 +228,10 @@ form button {
 
 form button:hover {
     background-color: #000;
+}
+form button {
+    display: block;
+    width: 100%;
 }
 
     .books-grid {
