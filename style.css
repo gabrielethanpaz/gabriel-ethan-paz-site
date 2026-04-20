@@ -131,11 +131,14 @@ main {
 }
 
 .book-item img {
-    width: 40%;
+    width: 100%;
+    max-width: 160px;   /* tamanho ideal */
     height: auto;
     display: block;
+    margin: 0 auto;
     background-color: #e0ded9;
 }
+
 
 .book-title {
     font-size: 0.85rem;
