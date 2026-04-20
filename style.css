@@ -83,20 +83,6 @@ main {
     max-width: 720px;
 }
 
-/* Divisor */
-.divider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 0 10px;
-}
-
-.divider-image {
-    width: 60px; /* ajusta conforme o equilíbrio visual */
-    height: auto;
-    opacity: 0.85;
-}
-
 /* Secções */
 .section {
     margin: 40px 0;
