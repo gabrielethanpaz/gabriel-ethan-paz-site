@@ -179,7 +179,7 @@ main {
 }
 
 .contact-photo {
-    width: 260px; /* ajustável */
+    width: 15%;
     height: auto;
     border-radius: 4px;
 }
@@ -198,24 +198,20 @@ main {
 form label {
     display: block;
     margin-bottom: 6px;
-    font-size: 0.9rem;
-    letter-spacing: 0.05em;
 }
 
 form input,
 form textarea {
+    display: block;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 18px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-    background-color: #fff;
 }
 
 /* CAMPO MENSAGEM MAIOR */
 form textarea {
-    height: 260px; /* aumentado */
+    height: 320px; /* ou 300px se quiseres ainda maior */
     resize: vertical;
+}
+
 }
 
 form button {
