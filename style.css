@@ -210,7 +210,7 @@ form textarea {
 
 /* CAMPO MENSAGEM MAIOR */
 form textarea {
-    height: 320px; /* ou 300px se quiseres ainda maior */
+    height: 360px !important;
     resize: vertical;
 }
 
@@ -230,8 +230,14 @@ form button:hover {
     background-color: #000;
 }
 form button {
-    display: block;
-    width: 100%;
+    display: block !important;
+    width: 100% !important;
+}
+.contact-photo {
+    width: 120px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto 20px !important;
 }
 
     .books-grid {
