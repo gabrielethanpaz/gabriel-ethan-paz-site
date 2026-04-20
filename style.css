@@ -165,13 +165,26 @@ main {
         margin-top: 60px;
     }
 
-/* Contacto */
+/* CONTACTO — Estrutura */
 .contact-container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 20px; /* margem esquerda e direita */
+    padding: 0 20px;
 }
 
+/* FOTO NO TOPO */
+.contact-photo-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-photo {
+    width: 260px; /* ajustável */
+    height: auto;
+    border-radius: 4px;
+}
+
+/* CAPA COM O NOME */
 .contact-cover {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.3rem;
@@ -181,6 +194,7 @@ main {
     color: #222;
 }
 
+/* FORMULÁRIO */
 form label {
     display: block;
     margin-bottom: 6px;
@@ -198,8 +212,9 @@ form textarea {
     background-color: #fff;
 }
 
+/* CAMPO MENSAGEM MAIOR */
 form textarea {
-    height: 220px; /* caixa maior */
+    height: 260px; /* aumentado */
     resize: vertical;
 }
 
@@ -216,7 +231,6 @@ form button {
 form button:hover {
     background-color: #000;
 }
-
 
     .books-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
