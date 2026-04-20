@@ -92,7 +92,7 @@ main {
 }
 
 .divider-image {
-    width: 120px; /* ajusta conforme o equilíbrio visual */
+    width: 60px; /* ajusta conforme o equilíbrio visual */
     height: auto;
     opacity: 0.85;
 }
