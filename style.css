@@ -64,6 +64,7 @@ main {
     margin-top: 40px;
     margin-right: 20px;
 }
+
 .author-photo {
     width: 180px;
     height: auto;
@@ -165,6 +166,11 @@ main {
         margin-top: 60px;
     }
 
+    .books-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 /* CONTACTO — Estrutura */
 .contact-container {
     max-width: 960px;
@@ -179,12 +185,11 @@ main {
 }
 
 .contact-photo {
-    width: 120px;   /* tamanho perfeito e pequeno */
+    width: 120px;
     height: auto;
     display: block;
     margin: 0 auto 20px;
 }
-
 
 /* CAPA COM O NOME */
 .contact-cover {
@@ -202,20 +207,20 @@ form label {
     margin-bottom: 6px;
 }
 
-form input,  
+form input,
 form textarea {
     display: block;
     width: 100%;
+    margin-bottom: 16px;
 }
 
 /* CAMPO MENSAGEM MAIOR */
 form textarea {
-    height: 360px !important;
+    height: 360px;
     resize: vertical;
 }
 
-}
-
+/* BOTÃO */
 form button {
     padding: 10px 20px;
     background-color: #222;
@@ -224,23 +229,10 @@ form button {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    display: block;
+    width: 100%;
 }
 
 form button:hover {
     background-color: #000;
-}
-form button {
-    display: block !important;
-    width: 100% !important;
-}
-.contact-photo {
-    width: 120px !important;
-    height: auto !important;
-    display: block !important;
-    margin: 0 auto 20px !important;
-}
-
-    .books-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
 }
