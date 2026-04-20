@@ -245,3 +245,36 @@ form button:hover {
     display: block !important;
     margin: 0 auto 20px !important;
 }
+/* LIVROS — Layout editorial linha a linha */
+.books-list {
+    margin-left: 40px; /* margem editorial à esquerda */
+    margin-top: 40px;
+}
+
+.book {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.book img {
+    width: 160px;      /* tamanho editorial da capa */
+    height: auto;
+    flex-shrink: 0;
+    border: 1px solid #dcd8d2; /* opcional, dá um toque editorial */
+}
+
+.book h2 {
+    margin-top: 0;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.book p {
+    max-width: 600px;
+    font-size: 0.95rem;
+    line-height: 1.55;
+}
