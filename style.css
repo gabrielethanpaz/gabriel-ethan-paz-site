@@ -83,7 +83,7 @@ main {
     max-width: 720px;
 }
 
-/* Divisor artístico */
+/* divisor */
 .divider {
     display: flex;
     justify-content: center;
