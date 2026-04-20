@@ -88,7 +88,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0 30px;
+    margin: 10px 0 20px;
 }
 
 .divider-image {
@@ -107,11 +107,11 @@ main {
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 0.16em;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .section p {
-    max-width: 720px;
+    max-width: 920px;
     font-size: 0.98rem;
 }
 
