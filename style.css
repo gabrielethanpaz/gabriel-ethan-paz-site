@@ -396,3 +396,6 @@ form button:hover {
         width: 200px;
     }
 }
+.page-header {
+    margin-left: 40px;
+}
